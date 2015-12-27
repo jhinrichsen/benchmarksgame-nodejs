@@ -20,16 +20,16 @@ let i = 0,
 
 for (;;) {
   k += 1
-  t = n<<1
+  t = n * 2;
   n *= k
   a += t
   k1 += 2
   a *= k1
   d *= k1
   if (a >= n) {
-    let div = (n * 3 + a) / d;
-    t = Math.floor(div / d);
-    u = div % d;
+    let q = n * 3 + a;
+    t = Math.floor(q / d);
+    u = q % d;
     u += n
     if (d > u) {
       ns = ns*10 + t
