@@ -1,0 +1,32 @@
+{
+  "name": "benchmarksgame-nodejs",
+  "version": "0.1.0",
+  "description": "A Node.js implementation of the benchmark game (previously known as language shootout)",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "jshint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhinrichsen/benchmarksgame-nodejs.git"
+  },
+  "keywords": [
+    "benchmark",
+    "language",
+    "shootout"
+  ],
+  "author": "Jochen Hinrichsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhinrichsen/benchmarksgame-nodejs/issues"
+  },
+  "homepage": "https://github.com/jhinrichsen/benchmarksgame-nodejs#readme",
+  "dependencies": {
+    "big-integer": "^1.6.9",
+    "bn.js": "^4.6.1"
+  }
+}
